@@ -1,0 +1,22 @@
+<h1>Snippet</h1>
+<hr>
+<p>
+  <%= link_to 'Edit', edit_admin_snippet_path(@snippet), class: "btn btn-primary" %>
+  <%= link_to 'Destroy', [:admin, @snippet], method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
+</p>
+<hr>
+
+<p>
+  <strong>Name:</strong>
+  <%= @snippet.name %>
+</p>
+
+<p>
+  <strong>Snippet:</strong>
+  <%= @snippet.snippet %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @snippet.status %>
+</p>
