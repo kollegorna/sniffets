@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'wwsnippets/version'
+require 'snippeteer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "wwsnippets"
-  spec.version       = Wwsnippets::VERSION
+  spec.name          = "snippeteer"
+  spec.version       = Snippeteer::VERSION
   spec.authors       = ["Ivan Novosad"]
   spec.email         = ["ivan.novosad@gmail.com"]
   spec.summary       = %q{Snippets for Wizard Wars}
