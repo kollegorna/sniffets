@@ -20,9 +20,12 @@ Or install it yourself as:
 
     $ gem install sniffets
 
-## Usage
+Run the generator:
 
     $ rails generate sniffets:install
+
+And migrate:
+
     $ rake db:migrate
 
 ## Contributing
