@@ -5,7 +5,7 @@ require 'snippeteer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "snippeteer"
-  spec.version       = Snippeteer::VERSION
+  spec.version       = Sniffets::VERSION
   spec.authors       = ["Ivan Novosad"]
   spec.email         = ["ivan.novosad@gmail.com"]
   spec.summary       = %q{Snippets for Wizard Wars}
