@@ -1,5 +1,7 @@
 # Sniffets
 
+![Sniffets](http://images4-d.ravelrycache.com/uploads/Tazzyb/195662530/image_small.jpg)
+
 TODO: Write a gem description
 
 ## Installation
