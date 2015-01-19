@@ -2,7 +2,8 @@
 
 ![Sniffets](http://images4-d.ravelrycache.com/uploads/Tazzyb/195662530/image_small.jpg)
 
-TODO: Write a gem description
+Simple gem that allows you to inject snippets in pages.
+
 
 ## Installation
 
@@ -27,6 +28,9 @@ Run the generator:
 And migrate:
 
     $ rake db:migrate
+
+If you need to add authentication for manipulating the snippets, monkeypatch
+`Admin::BaseController` and add a `before_action`.
 
 ## Contributing
 
