@@ -6,8 +6,8 @@ require 'sniffets/version'
 Gem::Specification.new do |spec|
   spec.name          = "sniffets"
   spec.version       = Sniffets::VERSION
-  spec.authors       = ["Ivan Novosad"]
-  spec.email         = ["ivan.novosad@gmail.com"]
+  spec.authors       = ["Ivan Novosad, Henrik Sjökvist"]
+  spec.email         = ["ivan.novosad@gmail.com, henrik@kollegorna.se"]
   spec.summary       = %q{Snippets}
   spec.homepage      = ""
   spec.license       = "MIT"
